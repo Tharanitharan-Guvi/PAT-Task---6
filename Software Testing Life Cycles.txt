@@ -1,0 +1,158 @@
+Software Life Cycles:
+---------------------
+	1. SDLC  - Complete software development Process
+		Phases : Requirement Analysis, Design, Coding, Testing, Depoloyment, Maintiance
+
+
+	2. STLC  - It talks about only the software testing process.
+		Phases: 
+		a. Requirement Analysis
+		b. Test Planning
+		c. Test Design
+		d. Test Execution
+		e. Defect / Bug Reporting
+		f. Test Closure
+
+	PS: STLC is a part of SDLC, it comes when we move to the testing phase in SDLC
+
+
+STLC - Software Testing Life Cycle
+----------------------------------
+
+ A. Requirement Analysis:
+    ---------------------
+	
+	Requirement Analysis is the initial phase of the software testing process. It involves understanding and analyzing the project's requirements and identifying what needs to be tested.
+
+	Requirement Analysis is conducted at the beginning of the testing process, often in parallel with requirements gathering for software development. It helps ensure that the testing team has a clear understanding of what needs to be tested and that the test planning can begin effectively.
+
+
+B. Test Planning: (Team Lead / Test Manager --> 5-8yrs of experience)
+   --------------
+	Test Planning involves creating a comprehensive test plan that outlines the scope, objectives, resources, schedule, and approach for testing. It also defines the test environment and the types of testing to be performed.
+	
+	i. What to test?
+		What exactly to be tested, what scenarios need to be tested and what not to test
+
+	ii. how to test?
+		What kind of testing we are going to do, what tools are we using, manaul / automation
+
+	iii. when to test?
+		time, how long testing will go on, how long each phase will go on
+
+
+	Input Documents --> 	Project Plan (Upper Management Level Planning - Budget, Technical and Duration)
+				Functional Requirements (FRS Document -> We need to understand the functionality)
+	
+	
+	Activities	--> 	Identify the resources (Human Resources, Machines, Tools)
+				Team Formation
+				Test Estimation (Time we spend in testing --> again we can split into different units like different types of testing and other phases of the STLC)
+
+				Preparation of Test Plan
+				Reviews of Test Plan
+				Test Plan Sign off (Approving from the upper management like Product Manager / Senior manager)
+
+	Outcomes	--> 	Test Plan Document
+
+	
+	Responsibilty	--> 	Test Lead/Team Lead (70%)
+				Test Manager (30%)	
+
+	This phase is more of a manager level activity
+
+
+C. Test Designing:
+   --------------
+	
+	Test Design is the phase where specific test cases and test scenarios are created. It includes selecting test data, defining test conditions, and creating test scripts.
+	
+	Test Design follows Test Planning. It is essential for developing detailed testing instructions that can be used during the execution phase.
+
+	
+
+	Input Documents	-->	Project plan
+				Functional Requirements (It is the main part, how the system is going to behave, what we expect from system)
+				Test Plans
+				Design Plans (UI Level Requirements we can get the design documents)
+				Use Cases (Describe the requirement, helps us understand the system clearly. It is a diagramatic representation of the system)
+	
+	Activities	-->	Preparation of Test Scenarios
+				Preparation of Test Cases
+				Reviews on Test Cases (Peer Reviews --> Discuss with the Developers and Product Managers (Official Review Meeting))
+				Traceability Matrix
+					
+					it is a excel file
+
+					A Traceability Matrix is a document that links test cases to the requirements or features they cover. It ensures that every 						requirement is tested and that the test cases align with the project's goals.
+
+					Show the screenshot of the traceability matrix
+						
+
+				Test Cases Sign Off (Developeers, QA Team Lead , Managers)
+	
+	Responsibility	-->	Team/Test Lead (30%)
+				Test Engineers (70%)
+	
+	
+	Outcomes	-->	Test Case Document
+				Traceability Matrix
+
+D. Test Execution:
+   ---------------
+
+	Test Execution is the actual process of running the test cases and scenarios that were designed in the previous phase. It involves executing the tests in the designated test environment.
+	
+	Test Execution occurs after Test Design. It is the hands-on testing phase where the software is systematically evaluated for any defects or issues.
+	
+	
+	Input Documents	-->	Functional Requirements
+				Test Plan
+				Test Cases
+	
+	Activities	-->	Execution of Test Cases
+				Preparation of Test Report / Test Log  (Report of how many test cases are done, how many have passed and how many have failed)
+				Identifying Defects
+	
+	Responsibilty	-->	Test/Team Lead (10%)
+				Test Engineers (90%)
+	
+	Outcome		-->	Status / Test Reports
+
+
+E. Defect Reporting and Tracking:
+   -----------------------------
+	
+	Defect or Bug Reporting involves identifying and documenting any discrepancies, issues, or defects discovered during the test execution phase. Detailed reports are created, often including information on the defect's severity, steps to reproduce, and screenshots.
+	
+	Defect Reporting is an ongoing process that starts during Test Execution and continues throughout the testing cycle. It is crucial for collaboration with the development team to address and resolve issues.
+
+
+
+	Input Documents	-->	Test Cases
+				Test Resports/ Test Log
+
+	Activities	-->	Preparation of Defect Report
+				Reporting defects to the developer
+	
+	Responsibilty	-->	Test/Team Lead (10%)
+				Test Engineers (90%)
+
+	Outcome		-->	Defect Report
+
+
+F. Test Closure / Signoff:
+   -----------------------
+
+
+	Input Documents	-->	Test Reports
+				Defect Reports
+
+	Activities	-->	Analyzing Test Reports
+				Analyzing Bug Reporting
+				Evaluating Exit Criteria
+	
+	Responsibilty	-->	Test Lead/Test Manager (70%)
+				Test Engineers (30%)
+	
+	Outcomes	-->	Test Summary Reports
